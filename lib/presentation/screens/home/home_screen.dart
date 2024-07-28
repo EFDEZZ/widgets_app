@@ -48,8 +48,13 @@ class _CustomListTile extends StatelessWidget {
       title: Text(menuItem.title),
       subtitle: Text(menuItem.subtitle),
       onTap: (){
-        
-      },
+        // Navigator.of(context).push(
+        //   MaterialPageRoute(
+        //     builder: (context) => const ButtonsScreen(),
+        //     ),
+        // );
+        Navigator.pushNamed(context, menuItem.links);
+      },  
     );
   }
 }

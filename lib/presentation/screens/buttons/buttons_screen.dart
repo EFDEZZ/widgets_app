@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:widgets_app/config/themes/themes.dart';
 
 class ButtonsScreen extends StatelessWidget {
   const ButtonsScreen({super.key});

@@ -164,8 +164,7 @@ class _CardType4 extends StatelessWidget {
     return Card(
       clipBehavior: Clip.hardEdge,
       elevation: elevation,
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      child: Stack(
         children: [
           Image.network(
             'https://picsum.photos/id/${elevation.toInt()}/600/250',

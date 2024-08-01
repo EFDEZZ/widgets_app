@@ -54,7 +54,6 @@ class SnackbarScreen extends StatelessWidget {
               ),
             FilledButton(
               onPressed: (){
-                //TODO:
                 openDialog(context);
               }, 
               child: const Text("Mostrar dialogo"),

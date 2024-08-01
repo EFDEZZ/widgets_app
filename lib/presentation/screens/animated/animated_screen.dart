@@ -39,7 +39,7 @@ class _AnimatedScreenState extends State<AnimatedScreen> {
           onTap: changeShape,
           child: AnimatedContainer(
             duration: const Duration(milliseconds: 500),
-            curve: Curves.easeOutCubic,
+            curve: Curves.elasticOut,
             width: width.toDouble() <= 0 ? 0: width.toDouble(),
             height: height.toDouble() <= 0 ? 0: height.toDouble(),
             decoration: BoxDecoration(

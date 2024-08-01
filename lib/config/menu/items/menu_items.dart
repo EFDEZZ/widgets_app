@@ -32,4 +32,10 @@ List<MenuItems> appMenuItems = [
     links: "/progress", 
     icon: Icons.refresh_rounded,
     ),
+  MenuItems(
+    title: "Snackbars y dialogos", 
+    subtitle: "Indicadores en pantalla", 
+    links: "/snackbar", 
+    icon: Icons.info_outline,
+    ),
 ];

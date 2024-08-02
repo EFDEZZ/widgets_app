@@ -50,4 +50,10 @@ List<MenuItems> appMenuItems = [
     links: "/ui_controls", 
     icon: Icons.car_rental_outlined,
     ),
+  MenuItems(
+    title: "Introducción a la Aplicación", 
+    subtitle: "Pequeño turorial introductorio", 
+    links: "/app_tutorial", 
+    icon: Icons.interests_rounded,
+    ),
 ];

@@ -68,4 +68,10 @@ List<MenuItems> appMenuItems = [
     links: "/counter", 
     icon: Icons.add_box_rounded,
     ),
+  MenuItems(
+    title: "Select Theme", 
+    subtitle: "Seleccionar tema preferido", 
+    links: "/theme_changer", 
+    icon: Icons.format_paint_outlined,
+    ),
 ];

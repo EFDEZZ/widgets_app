@@ -44,5 +44,9 @@ final router = GoRouter(
       path: '/counter',
       builder: (context, state) => const CounterScreen(),
     ),
+    GoRoute(
+      path: '/theme_changer',
+      builder: (context, state) => const ThemeChangerScreen(),
+    ),
   ],
 );

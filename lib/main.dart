@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:widgets_app/config/routes/app_routes.dart';
-import 'package:widgets_app/config/themes/themes.dart';
-import 'package:widgets_app/presentation/providers/theme_provider.dart';
+import 'package:widgets_app/src/config/routes/app_routes.dart';
+import 'package:widgets_app/src/config/themes/themes.dart';
+import 'package:widgets_app/src/presentation/providers/theme_provider.dart';
 
 void main() {
   runApp(

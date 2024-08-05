@@ -62,4 +62,10 @@ List<MenuItems> appMenuItems = [
     links: "/infinite_scroll", 
     icon: Icons.list_alt_outlined,
     ),
+  MenuItems(
+    title: "Riverpod Counter", 
+    subtitle: "Introduccion a Riverpod", 
+    links: "/counter", 
+    icon: Icons.add_box_rounded,
+    ),
 ];

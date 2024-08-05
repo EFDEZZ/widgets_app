@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:widgets_app/config/routes/app_routes.dart';
 import 'package:widgets_app/config/themes/themes.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(
+  const ProviderScope(child: MainApp())
+  );
 }
 
 class MainApp extends StatelessWidget {

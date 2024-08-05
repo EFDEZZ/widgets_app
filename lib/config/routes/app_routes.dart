@@ -40,5 +40,9 @@ final router = GoRouter(
       path: '/ui_controls',
       builder: (context, state) => const UiControlsScreens(),
     ),
+    GoRoute(
+      path: '/counter',
+      builder: (context, state) => const CounterScreen(),
+    ),
   ],
 );
